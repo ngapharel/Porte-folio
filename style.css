@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #1f2937;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: -20px;
+}
+
+h1, h2 {
+  color: #1f2937;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li::before {
+  content: "• ";
+  color: #1f2937;
+}
+
+.contact {
+  background: #e5e7eb;
+  padding: 10px;
+  border-radius: 5px;
+}
