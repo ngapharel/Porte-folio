@@ -11,6 +11,10 @@ header {
   padding: 40px 20px;
   text-align: center;
 }
+photo {
+  width: 150px;
+  height: 150px;
+}
 
 .container {
   padding: 20px;
